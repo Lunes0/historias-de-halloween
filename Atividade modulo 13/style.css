@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cdcdcd;
+}
+
+header,
+footer {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+figure img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+section {
+  padding: 15px 0;
+}
+
+article {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+  figure img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
